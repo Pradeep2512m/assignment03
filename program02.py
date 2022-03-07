@@ -1,0 +1,5 @@
+a = input("enter a string :")
+length = len(a)
+print(length)
+file = open("data.txt", "w")
+data = file.write(str(length))
